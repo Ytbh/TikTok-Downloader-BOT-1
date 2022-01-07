@@ -29,7 +29,7 @@ def start(client, message):
     kb = [[InlineKeyboardButton('Join channel gw', url="https://t.me/projectXDF"),InlineKeyboardButton('Repo 🔰', url="https://github.com/Ytbh/TikTok-Downloader-BOT")]]
     reply_markup = InlineKeyboardMarkup(kb)
     app.send_message(chat_id=message.from_user.id, text=f"Alo!, gw **Xdf57 bot**.\nGw bisa download video tiktok no wm!.\n\n"
-                          "__**Yang bikin :**__ __@YugoslavBoy__\n"
+                          "__**Yang bikin :**__ __@YugoslavBoy\n"
                           "__**Bahasa :**__ __🦆Python__\n"
                           "__**Framework :**__ __🗿 Pyrogram__",
                      parse_mode='md',
